@@ -1,27 +1,36 @@
-.texto-menor {
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .texto-menor {
     font-size: 13px;
-}
-
-.divs-facilidades {
+  }
+  
+  .divs-facilidades {
     width: 325px;
-}
-
-.div-novidades {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .div-novidades {
     width: 325px;
-}
-
-.botao-lilas {
+    margin: 0 auto;
+  }
+  
+  .botao-lilas {
     background-color: #9353FF;
-}
-
-.verde-limao {
+    color: white;
+    border: none;
+  }
+  
+  .verde-limao {
     color: #DAFF01;
-}
-
-@media(min-width: 768px) {
-
+  }
+  
+  @media (min-width: 768px) {
     .div-novidades {
-        width: 696px;
+      width: 696px;
     }
-
-}
+  }
+  
